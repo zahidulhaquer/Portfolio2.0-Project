@@ -69,8 +69,9 @@ header {
 
 
 .logo .logo-text {
-    font-size: 1.85rem;
+    font-size: 2.2rem;
     font-weight: 500x;
+    padding-left: 10.6rem;
     color: whitesmoke;
     text-shadow: cadetblue;
 }
