@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahidul Haque</title>
+    
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <i class="fa-solid fa-a"></i>
+                    <div class="logo-text">Zahid Haque</div>
+                </div>
+                <nav>
+                   <div class="togglebtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                   </div> 
+                <ul class="navlinks">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Resume</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                </ul>
+                </nav>                        
+            </header>
+            <div class="container">
+                <div class="hero-pic">
+                    <img src="img/profile.png" alt="Profile Picture">
+                </div>
+                <div class="hero-text">
+                    <h2>Hi! This is Zahid. </h2>
+                    <h1>I'm a <span>P</span>rogrammer.</h1>         
+                    <br>           <!-- <h2>I'm a <span>Programmer</span> & I do solve Problems</h2> -->
+                    <p> I solve problems and I am Strong in IT Fundamentals and critical thinking. I believe Efficiency beats hard work and I do respect hard work. <br><br>
+                    I worked in a local team with a variety of IT
+                    sector specialized graduates, job holders,
+                    experts in cyber security, programming, and
+                    networking, and blockchain enthusiasts. In
+                    addition, I have been working with the team for
+                    around two years to learn together. Moreover, I
+                    am always working to improve my skills in order
+                    to get the most out of myself.    
+
+
+                    </p>
+
+                    <div class="btn-group">
+                        <a href="#" class="btn">Download CV</a>
+                        <!-- <a href="#" class="btn">Contact</a> -->
+                    </div>
+
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- typed js for typing text effect -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.min.js"></script>
+    <script>
+        
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebth");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("clink", function()) {
+            this.classList.toggle("click");
+            nav.classList.toggle("open")
+        }
+
+        var typed=new Typed(".input", {
+            strings: ["a Programmer"],
+            typeSpeed: 70,
+            backSpeed: 55,
+            loop: true;
+        )}
+    </script>       
+</body>
+</html>
